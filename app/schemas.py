@@ -29,7 +29,8 @@ class PostBase(BaseModel):
 #     content : str
 #     published : bool  
     
-class PostCreate(PostBase):                   ## here we are using the concept of inheritance
+## here we are using the concept of inheritance   
+class PostCreate(PostBase):                   
     pass                      
 
 ## The below shcema is for what we want the user to see. we dont want them to see their passwords back. We will user it in our path operation as response model
